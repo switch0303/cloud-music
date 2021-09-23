@@ -5,7 +5,7 @@ import Recommend from "../application/Recommend";
 import Singers from "../application/Singers";
 import Rank from "../application/Rank";
 
-export default [
+const routes = [
     {
         path: "/",
         component: Home,
@@ -30,3 +30,5 @@ export default [
         ],
     },
 ];
+
+export default routes;
